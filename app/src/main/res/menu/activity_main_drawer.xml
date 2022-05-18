@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+        <item android:title="Principal">
+        <menu>
+            <item
+            android:id="@+id/app_bar_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Buscar"
+            app:actionViewClass="android.widget.SearchView" />
         <item
             android:id="nav_home"
             android:icon="@drawable/home"
             android:title="@string/menu_home" />
+        </menu>
+        </item>
+<item android:title="Ofertas">
+        <menu>
+            <group android:checkableBehavior="single">
             <item
                 android:id="nav_Bienes"
                 android:icon="@drawable/pay"
@@ -20,6 +34,30 @@
                 android:id="nav_servicios"
                 android:icon="@drawable/acquisition"
                 android:title="servicios" />
+            </group>
+        </menu>
+</item>
+        <item android:title="Seguimiento">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="nav_seguimiento"
+                        android:icon="@drawable/menu"
+                        android:title="Seguimiento de Bienes">
+                    </item>
+                    <item
+                        android:id="nav_segu_laboral"
+                        android:icon="@drawable/menu"
+                        android:title="Aplicaciones Laborales">
+                    </item>
+                    <item
+                        android:id="Servicios"
+                        android:icon="@drawable/menu"
+                        android:title="Seguimiento de Servicios">
+                    </item>
+                </group>
+            </menu>
+        </item>
 
     </group>
 </menu>
