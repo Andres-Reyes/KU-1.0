@@ -22,4 +22,19 @@
         android:name="com.example.ku10.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragmentOfertasLaborales"
+        android:name="com.example.ku10.FragmentOfertasLaborales"
+        android:label="fragment_ofertas_laborales"
+        tools:layout="@layout/fragment_ofertas_laborales" />
+    <fragment
+        android:id="@+id/fragmentBienes"
+        android:name="com.example.ku10.FragmentBienes"
+        android:label="fragment_bienes"
+        tools:layout="@layout/fragment_bienes" />
+    <fragment
+        android:id="@+id/fragmentServicios"
+        android:name="com.example.ku10.FragmentServicios"
+        android:label="fragment_servicios"
+        tools:layout="@layout/fragment_servicios" />
 </navigation>
