@@ -37,4 +37,9 @@
         android:name="com.example.ku10.FragmentServicios"
         android:label="fragment_servicios"
         tools:layout="@layout/fragment_servicios" />
+    <fragment
+        android:id="@+id/fragmentNoticias"
+        android:name="com.example.ku10.FragmentNoticias"
+        android:label="fragment_noticias"
+        tools:layout="@layout/fragment_noticias" />
 </navigation>

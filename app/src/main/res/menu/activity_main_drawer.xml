@@ -34,6 +34,10 @@
                 android:id="@+id/fragmentServicios"
                 android:icon="@drawable/acquisition"
                 android:title="servicios" />
+                <item
+                    android:id="@+id/fragmentNoticias"
+                    android:icon="@drawable/newspaper"
+                    android:title="Noticias" />
             </group>
         </menu>
 </item>
