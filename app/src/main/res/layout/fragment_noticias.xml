@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".MainActivity"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/Oferta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seccion de Noticias"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="20dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ofertaacademica"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="155dp">
+
+            <TextView
+                android:id="@+id/idNom1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inscripciones Abiertas"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="28/05/2022"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs1"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="La convocatoria para preinscribirse como estudiante nuevo en Unitrópico, la universidad pública de Casanare, estará habilitada hasta el día 8 de junio. Los aspirantes a estudiar en esta alma máter en el periodo 2022 – B."
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/ganaronfestival"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="175dp">
+
+            <TextView
+                android:id="@+id/idNom2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estudiantes ganaron Festival"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23/05/2022"
+                android:textAlignment="viewEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs2"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="Con la participación y la puesta en escena de los estudiantes Julián González y Daniel Monrroy, la Universidad Internacional del Trópico Americano fue la ganadora en el Festival Regional de la Canción de ASCUN."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/felowship"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="175dp">
+
+            <TextView
+                android:id="@+id/idNom3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Becas Humphrey en E.E.U.U"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23/05/2022"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs3"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="El programa Fulbright Hubert H. Humphrey busca profundizar en diferentes áreas de estudio relacionadas con el desarrollo y liderazgo, entre estas se destaca como principales: Desarrollo Sostenible."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/lanzadera"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="175dp">
+
+            <TextView
+                android:id="@+id/idNom4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Noticia4"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/idDes4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripcion"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/idDs4"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:text="hola mundo, olvide como programar en java y no se utilizar android studio"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/factory"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="175dp">
+
+            <TextView
+                android:id="@+id/idNom5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Noticia5"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/idDes5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripcion"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/idDs5"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:text="hola mundo, olvide como programar en java y no se utilizar android studio"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/icoanuncio"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="175dp">
+
+            <TextView
+                android:id="@+id/idNom6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Noticia6"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/idDes6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripcion"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/idDs6"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:text="hola mundo, olvide como programar en java y no se utilizar android studio"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/derecho"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="175dp">
+
+            <TextView
+                android:id="@+id/idNom7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Noticia7"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/idDes7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripcion"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/idDs7"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:text="hola mundo, olvide como programar en java y no se utilizar android studio"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/ingeniero"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="175dp">
+
+            <TextView
+                android:id="@+id/idNom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Noticia8"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/idDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripcion"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/idDs"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:text="hola mundo, olvide como programar en java y no se utilizar android studio"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="end|bottom"
+            android:clickable="true"
+            tools:src="@drawable/civil" />+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
+
+</ScrollView>
