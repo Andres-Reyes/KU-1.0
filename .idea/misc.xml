@@ -3,19 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/KU-1.0/app/src/main/res/layout/activity_main_noticias.xml" value="0.1796875" />
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/activity_nt1.xml" value="0.1796875" />
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/activity_nt2.xml" value="0.1" />
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/app_bar_main.xml" value="0.1796875" />
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/content_main.xml" value="0.1796875" />
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/content_nt1.xml" value="0.1796875" />
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/content_nt2.xml" value="0.1796875" />
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/fragment_first.xml" value="0.1796875" />
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/fragment_first2.xml" value="0.1796875" />
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/fragment_noticias.xml" value="0.16666666666666666" />
-        <entry key="..\:/KU-1.0/app/src/main/res/layout/noticiauno.xml" value="0.20401854714064915" />
-        <entry key="..\:/KU-1.0/app/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
+        <entry key="..\:/KU-1.0/app/src/main/res/layout/noticiauno.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/USUARIO/Documents/GitHub/KU-1.0/app/src/main/res/layout/activity_nt2.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/Documents/GitHub/KU-1.0/app/src/main/res/layout/fragment_noticias.xml" value="0.5" />
+        <entry key="..\:/Users/USUARIO/Documents/GitHub/KU-1.0/app/src/main/res/layout/noticiauno.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/OneDrive/Documentos/GitHub/KU-1.0/app/src/main/res/layout/activity_main_noticias.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1945" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1945" />
