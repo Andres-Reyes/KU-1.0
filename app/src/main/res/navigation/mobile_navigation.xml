@@ -58,4 +58,9 @@
         android:name="com.example.ku10.ofertaslaborales"
         android:label="fragment_ofertaslaborales"
         tools:layout="@layout/fragment_laboral" />
+    <fragment
+        android:id="@+id/fragment_infolaboral"
+        android:name="com.example.ku10.fragment_infolaboral"
+        android:label="fragment_infolaboral"
+        tools:layout="@layout/fragment_infolaboral" />
 </navigation>
