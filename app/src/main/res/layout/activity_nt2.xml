@@ -7,13 +7,45 @@
     tools:context=".nt2">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="414dp"
-        android:layout_height="221dp"
-        android:layout_marginTop="4dp"
-        android:src="@drawable/ganaronfestival"
+        android:id="@+id/imageView4"
+        android:layout_width="474dp"
+        android:layout_height="241dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/musico" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="391dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="4dp"
+        android:justificationMode="inter_word"
+        android:text="Con la participación y la puesta en escena de los estudiantes Julián González y Daniel Monrroy, la Universidad Internacional del Trópico Americano fue la ganadora en el Festival Regional de la Canción de ASCUN. Este logro se da gracias a la dedicación de los estudiantes, la guía y la disciplina del profesor William Jara, y Jesús Rodríguez, profesor de instrumentos llaneros, para hacer que Julián González obtuviera el primer puesto y Daniel Monrroy el tercero, cumpliendo el sueño de representar a la universidad en este concurso a nivel nacional. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="438dp"
+        android:layout_height="228dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/musico2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="405dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="16dp"
+        android:justificationMode="inter_word"
+        android:text="“Esto es un gran logro para nuestra universidad en la línea cultural y seguiremos trabajando para que el número de estudiantes con talentos artísticos participen y de esta forma aumente los logros obtenidos por la universidad”, agregó, Willian Jara, profesor e instructor de música."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
