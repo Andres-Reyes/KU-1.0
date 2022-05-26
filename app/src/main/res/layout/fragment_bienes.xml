@@ -172,10 +172,18 @@
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
         </LinearLayout>
+
+
     </ScrollView>
 
-
-
-
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/search_close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/agregar"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        />
 </FrameLayout>
