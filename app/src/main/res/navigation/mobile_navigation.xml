@@ -55,11 +55,11 @@
         tools:layout="@layout/fragment_seguimiento_servicios" />
     <fragment
         android:id="@+id/ofertaslaborales"
-        android:name="com.example.ku10.ofertaslaborales"
+        android:name="com.example.ku10.ofertaFragment"
         android:label="fragment_ofertaslaborales"
-        tools:layout="@layout/fragment_laboral" />
+        tools:layout="@layout/fragment_oferta" />
     <fragment
-        android:id="@+id/fragment_infolaboral"
+        android:id="@+id/infolaboral"
         android:name="com.example.ku10.fragment_infolaboral"
         android:label="fragment_infolaboral"
         tools:layout="@layout/fragment_infolaboral" />
