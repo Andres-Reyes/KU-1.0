@@ -1,64 +1,69 @@
 package com.example.ku10;
 
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.Toast;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link FragmentServicios#newInstance} factory method to
- * create an instance of this fragment.
- */
+import com.example.ku10.databinding.FragmentServiciosBinding;
+import com.example.ku10.databinding.ListaServiciosBinding;
+
+import java.util.ArrayList;
+
+import Adaptadores.AdapterServicio;
+import Entidades.Servicio;
+
 public class FragmentServicios extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    AdapterServicio adapterServicio;
+    RecyclerView recyclerView;
+    ArrayList <Servicio> listaServicios;
+    FragmentTransaction transaction;
+    Fragment fragmentServicios, fragmentDetalleServicio;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public FragmentServicios() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment FragmentServicios.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static FragmentServicios newInstance(String param1, String param2) {
-        FragmentServicios fragment = new FragmentServicios();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
+    @Nullable
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState){
+        View view = inflater.inflate(R.layout.fragment_servicios, container, false);
+        recyclerView = view.findViewById(R.id.recyclerView);
+        listaServicios = new ArrayList<>();
+        cargarLista();
+        mostrarData();
+        return view;
     }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.list_element, container, false);
+    public void cargarLista(){
+        listaServicios.add(new Servicio("Auxiliar de Mantenimiento área electrónica","Importante empresa del sector - Bogotá, D.C.","Empresa de producción líder del sector requiere TECNICO O TECNOLOGO en Electricidad industrial, Automatización...", "Hace 1 hora", R.drawable.schedule));
+        listaServicios.add(new Servicio("Punzonador","ASERTEMPO COLOMBIA S.A - Medellín, Antioquia","Empresa de producción líder del sector requiere TECNICO O TECNOLOGO en Electricidad industrial, Automatización...", "Hace 5 minutos", R.drawable.acquisition));
+        listaServicios.add(new Servicio("Tecnico de mantenimiento","Casalimpia s.a. - Barrancabermeja, Santander","Empresa de producción líder del sector requiere TECNICO O TECNOLOGO en Electricidad industrial, Automatización...", "Hace 25 minutos", R.drawable.magistrate));
+        listaServicios.add(new Servicio("Técnico de sistemas de seguridad electrónica Alarmas","Automotores Llano Grande S.A. - Yopal, Casanare","Empresa de producción líder del sector requiere TECNICO O TECNOLOGO en Electricidad industrial, Automatización...", "Hace 12 horas", R.drawable.image));
+        listaServicios.add(new Servicio("Coordinador de Calidad Automotriz","Importante empresa del sector Casanare, Yopal","Empresa de producción líder del sector requiere TECNICO O TECNOLOGO en Electricidad industrial, Automatización...", "Hace 19 minutos", R.drawable.loading));
+        listaServicios.add(new Servicio("Mecánico instalación de espárragos","ASERTEMPO COLOMBIA S.A - Medellín, Antioquia","Empresa de producción líder del sector requiere TECNICO O TECNOLOGO en Electricidad industrial, Automatización...", "Hace 5 horas", R.drawable.schedule));
+        listaServicios.add(new Servicio("Oficial electrico","Importante empresa del sector Casanare, Yopal","Empresa de producción líder del sector requiere TECNICO O TECNOLOGO en Electricidad industrial, Automatización...", "Hace 18 minutos", R.drawable.magistrate));
+        listaServicios.add(new Servicio("Técnico en Identificación de Automotores","Importante empresa del sector - Bogotá, D.C.","Empresa de producción líder del sector requiere TECNICO O TECNOLOGO en Electricidad industrial, Automatización...", "Hace 1 minuto", R.drawable.image));
+        listaServicios.add(new Servicio("Técnico mecánico automotriz","Casalimpia s.a. - Barrancabermeja, Santander","Empresa de producción líder del sector requiere TECNICO O TECNOLOGO en Electricidad industrial, Automatización...", "Hace 12 horas", R.drawable.pay));
+        listaServicios.add(new Servicio("Auxiliar eléctrico","Automotores Llano Grande S.A. - Yopal, Casanare","Empresa de producción líder del sector requiere TECNICO O TECNOLOGO en Electricidad industrial, Automatización...", "Hace 9 minutos", R.drawable.loading));
     }
+
+    public void mostrarData(){
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        adapterServicio = new AdapterServicio(getContext(), listaServicios);
+        recyclerView.setAdapter(adapterServicio);
+    }
+
 }

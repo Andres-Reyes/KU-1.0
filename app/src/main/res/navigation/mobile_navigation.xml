@@ -37,4 +37,5 @@
         android:name="com.example.ku10.FragmentServicios"
         android:label="fragment_servicios"
         tools:layout="@layout/fragment_servicios" />
+
 </navigation>

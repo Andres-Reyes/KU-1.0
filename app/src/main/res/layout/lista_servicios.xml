@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/imagen_servicio"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_launcher_background">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/nombre_servicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@+id/imagen_servicio"
+            android:layout_toRightOf="@+id/imagen_servicio"
+            android:text="Mantenimiento preventivo y correctivo de Software"
+            android:textSize="12sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/descripcion_empresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre_servicio"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@+id/imagen_servicio"
+            android:layout_toRightOf="@+id/imagen_servicio"
+            android:text="Importante empresa del sector Casanare, Yopal"
+            android:textSize="10sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/descripcion_servicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descripcion_empresa"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@+id/imagen_servicio"
+            android:layout_toRightOf="@+id/imagen_servicio"
+            android:text="Importante empresa requiere en su equipo de trabajo bachiller para desempeñar el cargo de vendedor tat cumpliendo..."
+            android:textSize="8sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/descripcion_hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descripcion_servicio"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@+id/imagen_servicio"
+            android:layout_toRightOf="@+id/imagen_servicio"
+            android:text="Hace 1 hora"
+            android:textSize="8sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

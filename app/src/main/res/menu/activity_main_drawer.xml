@@ -25,7 +25,7 @@
             <item
                 android:id="@+id/fragmentBienes"
                 android:icon="@drawable/pay"
-                android:title="Bienes" />
+                android:title="Detalle" />
             <item
                 android:id="@+id/fragmentOfertasLaborales"
                 android:icon="@drawable/schedule"
