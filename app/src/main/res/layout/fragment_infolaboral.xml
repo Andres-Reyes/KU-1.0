@@ -157,6 +157,8 @@
                         <TextView
                             android:id="@+id/textView4"
                             android:layout_width="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:justificationMode="inter_word"
                             android:layout_height="wrap_content"
                             android:text="Importante concesionario de motos se encuentra en búsqueda de los mejores técnicos, las condiciones del cargo son las siguientes: Experiencia en mantenimiento de motocicletas, mantenimiento preventivo y correctivo. Conocimiento en mantenimiento eléctrico (Instalaciones de exploradoras, luces led, estacionarias, conversiones de corriente directa); Conocimiento en inyección, ABS y diagnóstico y conocimiento en diagnóstico por scanner, despiece de motores, lectura de manuales de marca, implementar estándares de calidad entregados por la marca, orden y aseo, metódico, excelente presentación personal ciudad de trabajo Aguazul, Tecnico Certificado o Carreras a fines, aplicar o enviar Hoja de Vida.
 Condiciones laborales:

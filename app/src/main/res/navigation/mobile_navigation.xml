@@ -46,7 +46,7 @@
     <fragment
         android:id="@+id/fragmentSeguimientoLaboral"
         android:name="com.example.ku10.fragmentSeguimientoLaboral"
-        android:label="fragment_seguimiento_laboral"
+        android:label="Mis aplicaciones"
         tools:layout="@layout/fragment_seguimiento_laboral" />
     <fragment
         android:id="@+id/fragmentSeguimientoServicios"
