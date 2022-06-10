@@ -19,9 +19,12 @@
             />
         </menu>
         </item>
+
 <item android:title="Ofertas">
     <menu>
         <group android:checkableBehavior="single">
+
+
             <item
                 android:id="@+id/fragmentBienes"
                 android:icon="@drawable/pay"
@@ -33,26 +36,30 @@
             <item
                 android:id="@+id/ofertasservicios"
                 android:icon="@drawable/acquisition"
+
                 android:title="Servicios" />
         </group>
     </menu>
+
+               
+
 </item>
         <item android:title="Seguimiento">
             <menu>
                 <group android:checkableBehavior="single">
                     <item
-                        android:id="@+id/nav_seguimiento"
-                        android:icon="@drawable/menu"
+                        android:id="@+id/fragmentSeguimientoBienes"
+                        android:icon="@drawable/barchart"
                         android:title="Seguimiento de Bienes">
                     </item>
                     <item
-                        android:id="@+id/nav_segu_laboral"
-                        android:icon="@drawable/menu"
+                        android:id="@+id/fragmentSeguimientoLaboral"
+                        android:icon="@drawable/barchart"
                         android:title="Aplicaciones Laborales">
                     </item>
                     <item
-                        android:id="@+id/Servicios"
-                        android:icon="@drawable/menu"
+                        android:id="@+id/fragmentSeguimientoServicios"
+                        android:icon="@drawable/barchart"
                         android:title="Seguimiento de Servicios">
                     </item>
                 </group>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".FragmentNoticias">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/Oferta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seccion de Noticias"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/material_dynamic_neutral0">
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ofertaacademica" />
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="155dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNom1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inscripciones Abiertas"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="28/05/2022"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs1"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="La convocatoria para preinscribirse como estudiante nuevo en Unitrópico, la universidad pública de Casanare, estará habilitada hasta el día 8 de junio. Los aspirantes a estudiar en esta alma máter en el periodo 2022 – B."
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="200dp"
+            android:maxWidth="100dp"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:text="Mas Info"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ganaronfestival"/>
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="155dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNom2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estudiantes ganaron Festival"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23/05/2022"
+                android:textAlignment="viewEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs2"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="Con la participación y la puesta en escena de los estudiantes Julián González y Daniel Monrroy, la Universidad Internacional del Trópico Americano fue la ganadora en el Festival Regional de la Canción de ASCUN."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="200dp"
+            android:maxWidth="100dp"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:text="Mas Info"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="200dp"
+            android:src="@drawable/felowship"/>
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="155dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNom3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Becas Humphrey en E.E.U.U"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25/03/2022"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs3"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="El programa Fulbright Hubert H. Humphrey busca profundizar en diferentes áreas de estudio relacionadas con el desarrollo y liderazgo, entre estas se destaca como principales: Desarrollo Sostenible."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:maxWidth="100dp"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:text="Mas Info"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="200dp"
+            android:src="@drawable/lemo"/>
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="155dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNom4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minciencias oficializó entrega LEMO"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25/03/2022"
+                android:textAlignment="viewEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs4"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="El Ministro de Ciencia, Tecnología e Innovación encargado José Manuel Luque inauguró el Laboratorio de Estudios Moleculares de la Orinoquia – LEMO ubicado en el campus de la Universidad Internacional del Trópico Americano Unitrópico, el cual fue fortalecido con equipos de alta tecnología para el diagnóstico de COVID – 19 y también es una herramienta significativa para la realización de otros estudios científicos."
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:maxWidth="100dp"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:text="Mas Info"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="200dp"
+            android:src="@drawable/birders"/>
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="155dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNom5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unitrópico Birders fueron premiados el Global Big Day"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25/03/2022"
+                android:textAlignment="viewEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs5"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="La pasión y entrega de nuestros estudiantes y profesores de Biología Ambiental, aportó en el escalonamiento que obtuvo Casanare en el marco de la conmemoración del Global Big Day, que posicionó una vez a Colombia como potencia mundial en diversidad de aves. "
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:maxWidth="100dp"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:text="Mas Info"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="200dp"
+            android:src="@drawable/afro"/>
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="155dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNom6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Construyendo sociedad a través de la afrocolombianidad"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23/05/2022"
+                android:textAlignment="viewEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs6"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="La Universidad Internacional del Trópico Americano reconoce que la sociedad colombiana está conformada por una gran diversidad étnica que enriquece nuestra cultura,por lo que mediante espacios de reflexión y diálogo facilita la comprensión de la historia"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:maxWidth="100dp"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:text="Mas Info"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="200dp"
+            android:src="@drawable/futfem"/>
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="155dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNom7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Con tres disciplinas competiremos en los ASCUN"
+                android:textAlignment="center"
+                android:textColor="#070404"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23/05/2022"
+                android:textAlignment="viewEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs7"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="Los estudiantes y deportistas unitropistas que lograron clasificar en la zonal departamental de los juegos ASCUN desarrollados en Villavicencia, se desplazarán a Tunja con una delegación conformada por tres disciplinas deportivas"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:maxWidth="100dp"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:text="Mas Info"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:background="@color/material_dynamic_neutral0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="200dp"
+            android:src="@drawable/dipsig"/>
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="155dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="𝗗𝗶𝗽𝗹𝗼𝗺𝗮𝗱𝗼 𝗲𝗻 𝗦𝗶𝘀𝘁𝗲𝗺𝗮𝘀 𝗱𝗲 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼́𝗻 𝗚𝗲𝗼𝗴𝗿𝗮́𝗳𝗶𝗰𝗮- 𝗦𝗜𝗚"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23/05/2022"
+                android:textAlignment="viewEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idDs"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:justificationMode="inter_word"
+                android:text="Inscripciones abiertas para esta oferta de educación continuada aquí https://forms.gle/Y9eEVnSE1e3rZVmAA"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="end|bottom"
+            android:clickable="true"
+            tools:src="@drawable/civil" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="10dp"
+            android:maxWidth="100dp"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:text="Mas Info"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+</FrameLayout>
