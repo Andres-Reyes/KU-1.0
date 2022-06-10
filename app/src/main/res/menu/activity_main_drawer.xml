@@ -15,6 +15,7 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/home"
+<<<<<<< Updated upstream
             android:title="@string/menu_home"
             />
         </menu>
@@ -62,6 +63,21 @@
                 </group>
             </menu>
         </item>
+=======
+            android:title="@string/menu_home" />
+        <item
+            android:id="nav_servicios"
+            android:icon="@drawable/acquisition"
+            android:title="servicios" />
+        <item
+            android:id="nav_Laboral"
+            android:icon="@drawable/schedule"
+            android:title="Laboral" />
+        <item
+            android:id="nav_Bienes"
+            android:icon="@drawable/pay"
+            android:title="Bienes" />
+>>>>>>> Stashed changes
 
     </group>
 </menu>
