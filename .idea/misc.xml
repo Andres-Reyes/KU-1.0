@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/layout/activity_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/layout/app_bar_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/layout/content_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/layout/fragment_bienes.xml" value="0.6" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/layout/fragment_laboral.xml" value="0.22826086956521738" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/layout/fragment_noticias.xml" value="0.25" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/layout/fragment_ofertaslaborales.xml" value="0.10989583333333333" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/layout/fragment_seguimiento_bienes.xml" value="0.10989583333333333" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/layout/fragment_servicios.xml" value="0.25" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/layout/nav_header_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/menu/main.xml" value="0.25" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2555" />
+        <entry key="..\:/User/Otras carpetas/Trabajos/Android Studio/KU-1.0/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1945" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1945" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1945" />
@@ -10,10 +23,14 @@
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1945" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/app_bar_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/fragment_bienes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/fragment_noticias.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/fragment_ofertas_laborales.xml" value="0.1" />
-        <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/fragment_servicios.xml" value="0.10507246376811594" />
+        <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/fragment_seguimiento_bienes.xml" value="0.1" />
+        <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/fragment_seguimiento_laboral.xml" value="0.1" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/fragment_slideshow.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/nav_header_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ariel/OneDrive/Escritorio/angular/KU-1.0/app/src/main/res/layout/switch_item.xml" value="0.20416666666666666" />
@@ -31,8 +48,14 @@
         <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/activity_main.xml" value="0.2078804347826087" />
         <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/app_bar_main.xml" value="0.2078804347826087" />
         <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/content_main.xml" value="0.11041666666666666" />
+        <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/fragment_bienes.xml" value="0.2078804347826087" />
         <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/fragment_gallery.xml" value="0.2078804347826087" />
         <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/fragment_home.xml" value="0.2078804347826087" />
+        <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/fragment_noticias.xml" value="0.2078804347826087" />
+        <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/fragment_ofertas_laborales.xml" value="0.2078804347826087" />
+        <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/fragment_ofertaslaborales.xml" value="0.2078804347826087" />
+        <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/fragment_seguimiento_bienes.xml" value="0.2078804347826087" />
+        <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/fragment_servicios.xml" value="0.2078804347826087" />
         <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/fragment_slideshow.xml" value="0.2078804347826087" />
         <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/nav_header_main.xml" value="0.11041666666666666" />
         <entry key="..\:/crist/Documents/GitHub/KU-1.0/app/src/main/res/layout/switch_item.xml" value="0.2078804347826087" />

@@ -5,10 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".FragmentServicios">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="198dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/material_on_primary_disabled" >
+
+    </androidx.cardview.widget.CardView>
 
 </FrameLayout>

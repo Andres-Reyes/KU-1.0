@@ -19,7 +19,7 @@
             />
         </menu>
         </item>
-<item android:title="Ofertas">
+<item android:title="Anuncios">
         <menu>
             <group android:checkableBehavior="single">
             <item
@@ -27,13 +27,17 @@
                 android:icon="@drawable/pay"
                 android:title="Bienes" />
             <item
-                android:id="@+id/fragmentOfertasLaborales"
+                android:id="@+id/ofertaslaborales"
                 android:icon="@drawable/schedule"
                 android:title="Laboral" />
             <item
                 android:id="@+id/fragmentServicios"
                 android:icon="@drawable/acquisition"
                 android:title="servicios" />
+                <item
+                    android:id="@+id/fragmentNoticias"
+                    android:icon="@drawable/newspaper"
+                    android:title="Noticias" />
             </group>
         </menu>
 </item>
@@ -41,18 +45,18 @@
             <menu>
                 <group android:checkableBehavior="single">
                     <item
-                        android:id="@+id/nav_seguimiento"
-                        android:icon="@drawable/menu"
+                        android:id="@+id/fragmentSeguimientoBienes"
+                        android:icon="@drawable/barchart"
                         android:title="Seguimiento de Bienes">
                     </item>
                     <item
-                        android:id="@+id/nav_segu_laboral"
-                        android:icon="@drawable/menu"
+                        android:id="@+id/fragmentSeguimientoLaboral"
+                        android:icon="@drawable/barchart"
                         android:title="Aplicaciones Laborales">
                     </item>
                     <item
-                        android:id="@+id/Servicios"
-                        android:icon="@drawable/menu"
+                        android:id="@+id/fragmentSeguimientoServicios"
+                        android:icon="@drawable/barchart"
                         android:title="Seguimiento de Servicios">
                     </item>
                 </group>
