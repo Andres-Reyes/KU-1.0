@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".FragmentNoticias">
 
     <!-- TODO: Update blank fragment layout -->
@@ -12,3 +13,6 @@
         android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
+
+    
+
