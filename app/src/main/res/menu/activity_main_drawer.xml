@@ -19,9 +19,12 @@
             />
         </menu>
         </item>
-<item android:title="Anuncios">
-        <menu>
-            <group android:checkableBehavior="single">
+
+<item android:title="Ofertas">
+    <menu>
+        <group android:checkableBehavior="single">
+
+
             <item
                 android:id="@+id/fragmentBienes"
                 android:icon="@drawable/pay"
@@ -31,15 +34,15 @@
                 android:icon="@drawable/schedule"
                 android:title="Laboral" />
             <item
-                android:id="@+id/fragmentServicios"
+                android:id="@+id/ofertasservicios"
                 android:icon="@drawable/acquisition"
-                android:title="servicios" />
-                <item
-                    android:id="@+id/fragmentNoticias"
-                    android:icon="@drawable/newspaper"
-                    android:title="Noticias" />
-            </group>
-        </menu>
+
+                android:title="Servicios" />
+        </group>
+    </menu>
+
+               
+
 </item>
         <item android:title="Seguimiento">
             <menu>

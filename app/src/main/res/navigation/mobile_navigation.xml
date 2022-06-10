@@ -28,7 +28,9 @@
         android:name="com.example.ku10.FragmentBienes"
         android:label="fragment_bienes"
         tools:layout="@layout/fragment_bienes" />
+
     <fragment
+
         android:id="@+id/fragmentServicios"
         android:name="com.example.ku10.FragmentServicios"
         android:label="fragment_servicios"
@@ -53,6 +55,7 @@
         android:name="com.example.ku10.fragmentSeguimientoServicios"
         android:label="fragment_seguimiento_servicios"
         tools:layout="@layout/fragment_seguimiento_servicios" />
+
     <fragment
         android:id="@+id/ofertaslaborales"
         android:name="com.example.ku10.ofertaFragment"
@@ -63,4 +66,13 @@
         android:name="com.example.ku10.fragment_infolaboral"
         android:label="fragment_infolaboral"
         tools:layout="@layout/fragment_infolaboral" />
+ 
+
+    <fragment
+        android:id="@+id/ofertaslaborales"
+        android:name="com.example.ku10.ofertaslaborales"
+        android:label="fragment_ofertaslaborales"
+        tools:layout="@layout/fragment_ofertaslaborales" />
+
+
 </navigation>

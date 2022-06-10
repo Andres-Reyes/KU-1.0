@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/oferta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="10 Ofertas de Servicios "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_margin="4dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/anuncio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_below="@+id/titulo"
+                android:layout_gravity="fill"
+                android:layout_margin="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imagen_servicio"
+                        android:layout_width="64dp"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:src="@drawable/lava_ro" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Servicio de lavandería"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ubicacion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Importante empresa del sector Casanare, Yopal"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/descripcion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ubicacion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Live Good con Mr Jeff, servicio de lavandería/planchado y tintorería/lavado en seco a DOMICILIO..."
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/hora"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/descripcion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Ofrecido por Mr Jeff Avenida El Dorado"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/button1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="39dp"
+                            android:layout_below="@+id/hora"
+                            android:layout_marginLeft="210dp"
+                            android:checkable="false"
+                            android:text="Ver"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/anuncio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_below="@+id/anuncio"
+                android:layout_gravity="fill"
+                android:layout_margin="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imagen_servicio1"
+                        android:layout_width="64dp"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:src="@drawable/tuto_mate" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Curso de Preparación Online para IELTS"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ubicacion1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Importante empresa del sector Casanare, Yopal"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/descripcion1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ubicacion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Servicio de tutorias personalizadas - un tutor, un estudiante - via online para la preparación del examen IELTS. Las sesiones se adelantan via Zoom y siempre están acompañados por su tutor. No tenemos un programa predefinido; con base en un examen diagnóstico se prepara un plan de trabajo para cada cliente enfocado en sus fortalezas..."
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/hora1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/descripcion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Ofrecido por Get Ready - S.A.S"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="39dp"
+                            android:layout_below="@+id/hora"
+                            android:layout_marginLeft="210dp"
+                            android:checkable="false"
+                            android:text="Ver"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/anuncio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_below="@+id/anuncio1"
+                android:layout_gravity="fill"
+                android:layout_margin="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imagen_servicio2"
+                        android:layout_width="64dp"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:src="@drawable/tutoria_in" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Programa Idioma Inglés A1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ubicacion2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Importante empresa del sector Casanare, Yopal"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/descripcion2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ubicacion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="10% Descuento sobre el costo total del idioma que quieres aprender.Cambiamos comprar, por invertir en tu futuro: Aprovecha los descuentos que trae la Feria del Hogar y sus empresarios bajo el programa Bazzarbog liderado por Cámara de Comercio de Bogotá, oferta válida durante la Feria del Hogar 12 de noviembre al 6 de diciembre del año presente... "
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/hora2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/descripcion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Ofrecido por Academia Cultural en Idiomas Extranjeros"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="39dp"
+                            android:layout_below="@+id/hora"
+                            android:layout_marginLeft="210dp"
+                            android:checkable="false"
+                            android:text="Ver"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/anuncio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_below="@+id/anuncio2"
+                android:layout_gravity="fill"
+                android:layout_margin="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imagen_servicio3"
+                        android:layout_width="64dp"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:src="@drawable/tuto_ma" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Curso de Matemáticas para SAT"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ubicacion3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Importante empresa del sector Casanare, Yopal"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/descripcion3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ubicacion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Video curso donde pueden ver video-tutoriales de repaso de conceptos básicos de matemáticas necesarios para afrontar el componente de matemáticas del examen SAT. También incluye videos mostrando la resolución de todas las preguntas de este componente presentes en 10 exámenes de práctica..."
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/hora3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/descripcion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Ofrecido por Get Ready - S.A.S"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="39dp"
+                            android:layout_below="@+id/hora"
+                            android:layout_marginLeft="210dp"
+                            android:checkable="false"
+                            android:text="Ver"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/anuncio4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_below="@+id/anuncio3"
+                android:layout_gravity="fill"
+                android:layout_margin="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imagen_servicio4"
+                        android:layout_width="64dp"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:src="@drawable/infra_es" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Mantenimiento de Infraestructura"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ubicacion4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Importante empresa del sector Casanare, Yopal"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/descripcion4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ubicacion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Tercerizamos el servicio de mantenimiento de la infraestructura de su Organización, garantizando el buen estado siempre, con los mejores estándares de calidad..."
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/hora4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/descripcion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Ofrecido por Escala de Arquitectura y Construcción"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/button5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="39dp"
+                            android:layout_below="@+id/hora"
+                            android:layout_marginLeft="210dp"
+                            android:checkable="false"
+                            android:text="Ver"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/anuncio5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_below="@+id/anuncio4"
+                android:layout_gravity="fill"
+                android:layout_margin="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imagen_servicio5"
+                        android:layout_width="64dp"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:src="@drawable/man_tec" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Mantenimiento y Soporte por Consumo"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ubicacion5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/titulo"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Importante empresa del sector Casanare, Yopal"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/descripcion5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ubicacion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Brindamos asistencia técnica y soporte para todo tipo de empresas con personal capacitado en resolver los problemas de su equipo de computo o software, con o sin contrato, outsourcing del área de sistemas o de apoyo, redes, comunicaciones, soporte, administración de recursos..."
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/hora5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/descripcion"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView4"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Ofrecido por Consulapp"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/button6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="39dp"
+                            android:layout_below="@+id/hora"
+                            android:layout_marginLeft="210dp"
+                            android:checkable="false"
+                            android:text="Ver"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
