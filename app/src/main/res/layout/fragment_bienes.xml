@@ -17,8 +17,7 @@
             android:id="@+id/imagen_servicio"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:src="@drawable/schedule">
-        </ImageView>
+            android:src="@drawable/schedule"></ImageView>
 
         <TextView
             android:id="@+id/nombre_servicio"

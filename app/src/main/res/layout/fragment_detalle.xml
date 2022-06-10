@@ -3,10 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     app:cardCornerRadius="2dp"
     app:cardElevation="2dp"
-    app:cardUseCompatPadding="true">
+    app:cardUseCompatPadding="true"
+    tools:context=".fragment_detalle">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,9 +18,8 @@
         <ImageView
             android:id="@+id/imagen_servicio"
             android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:src="@drawable/ic_launcher_background">
-        </ImageView>
+            android:layout_height="100dp"
+            android:src="@drawable/lava_ro"></ImageView>
 
         <TextView
             android:id="@+id/nombre_servicio"
@@ -28,12 +29,14 @@
             android:layout_marginLeft="8dp"
             android:layout_toEndOf="@+id/imagen_servicio"
             android:layout_toRightOf="@+id/imagen_servicio"
-            android:text="Mantenimiento preventivo y correctivo de Software"
+            android:text="Descripción del servicio"
             android:textSize="12sp"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold">
+
+        </TextView>
 
         <TextView
-            android:id="@+id/descripcion_empresa"
+            android:id="@+id/descripcion_servicio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/nombre_servicio"
@@ -41,25 +44,13 @@
             android:layout_marginLeft="8dp"
             android:layout_toEndOf="@+id/imagen_servicio"
             android:layout_toRightOf="@+id/imagen_servicio"
-            android:text="Importante empresa del sector Casanare, Yopal"
-            android:textSize="10sp"
+            android:text="Llámalo modelo de suscripción de Mr Jeff o llámalo membresía. No importa cómo le llames, lo importante es que lo tengas. El modelo de suscripción de Mr Jeff es la solución definitiva para acabar con la esclavitud que supone el drama de tener que lavar, planchar, secar y doblar la ropa. Con este servicio realizas un único pago al mes que corresponde a 4 bolsas de ropa, una por semana. Muchísimos kilos de ropa que volverá a estar perfecta y muchísimas horas de vida -500 en concreto- que antes se perdían en el abismo de la lavadora. Y mientras tú te relajas, los profesionales de nuestros Puntos Jeff someterán tus prendas a un proceso de lavado que las dejará como nuevas.
+            Tenemos un plan que no falla: tu ropa limpia todas las semanas a través de la suscripción. Suena bien, ¿no? La app que lava la ropa por ti Gestiona tus pedidos cómodamente y pídelos cuando y desde dónde quieras. Estás a un click de la libertad, ¿ya te la has descargado? Quizás solo necesitas un pedido puntual de lavandería y/o tintorería. Descubre nuestros servicios de lavandería, planchado o tintorería para tus prendas más delicadas o la ropa del hogar."
+            android:textSize="12sp"
             android:textStyle="normal" />
 
         <TextView
-            android:id="@+id/descripcion_servicio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/descripcion_empresa"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_toEndOf="@+id/imagen_servicio"
-            android:layout_toRightOf="@+id/imagen_servicio"
-            android:text="Importante empresa requiere en su equipo de trabajo bachiller para desempeñar el cargo de vendedor tat cumpliendo..."
-            android:textSize="8sp"
-            android:textStyle="normal" />
-
-        <TextView
-            android:id="@+id/descripcion_hora"
+            android:id="@+id/descripcion_horario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/descripcion_servicio"
@@ -67,8 +58,31 @@
             android:layout_marginLeft="8dp"
             android:layout_toEndOf="@+id/imagen_servicio"
             android:layout_toRightOf="@+id/imagen_servicio"
+            android:text="Horario: Lunes a viernes de 8:00 am a 5:30 y sábados de 8:00 am a 1:30"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/descripcion_hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descripcion_horario"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@+id/imagen_servicio"
+            android:layout_toRightOf="@+id/imagen_servicio"
             android:text="Hace 1 hora"
             android:textSize="8sp"
             android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_below="@+id/descripcion_hora"
+            android:layout_marginLeft="210dp"
+            android:checkable="false"
+            android:text="Ver"
+            tools:ignore="TouchTargetSizeCheck" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
