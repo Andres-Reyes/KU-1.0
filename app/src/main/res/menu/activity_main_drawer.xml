@@ -27,7 +27,7 @@
                 android:icon="@drawable/pay"
                 android:title="Bienes" />
             <item
-                android:id="@+id/fragmentOfertasLaborales"
+                android:id="@+id/ofertaslaborales"
                 android:icon="@drawable/schedule"
                 android:title="Laboral" />
             <item
