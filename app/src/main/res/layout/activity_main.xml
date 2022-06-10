@@ -25,6 +25,9 @@
 <<<<<<< Updated upstream
         app:menu="@menu/activity_main_drawer"
 
+
+
+
         />
 =======
         app:menu="@menu/activity_main_drawer" >
